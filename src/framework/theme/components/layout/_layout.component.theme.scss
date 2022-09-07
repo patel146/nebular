@@ -84,7 +84,7 @@
       }
     }
 
-    @media screen and (min-width: $layout-window-mode-max-width + 20px) {
+    @media screen and (min-width: ($layout-window-mode-max-width + 20px)) {
       $padding-top: calc(#{nb-theme(layout-window-mode-padding-top)} * 0.25);
 
       @include window-mode($padding-top);
@@ -96,7 +96,7 @@
       }
     }
 
-    @media screen and (min-width: $layout-window-mode-max-width + 150px) {
+    @media screen and (min-width: ($layout-window-mode-max-width + 150px)) {
       $padding-top: calc(#{nb-theme(layout-window-mode-padding-top)} * 0.5);
 
       @include window-mode($padding-top);
@@ -108,7 +108,7 @@
       }
     }
 
-    @media screen and (min-width: $layout-window-mode-max-width + 300px) {
+    @media screen and (min-width: ($layout-window-mode-max-width + 300px)) {
       $padding-top: nb-theme(layout-window-mode-padding-top);
 
       @include window-mode($padding-top);
